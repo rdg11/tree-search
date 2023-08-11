@@ -16,6 +16,8 @@ export default function Tree() {
 		BST.remove(data)
 	}
 	function createTree() {
+		// dont do this null thing, (leaves a bunch of nodes unused, should set those to null)
+		BST.root = null
 		BST.insert(10)
 		BST.insert(5)
 		BST.insert(15)
