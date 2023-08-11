@@ -1,3 +1,3 @@
 ## tree-search
 
-Binary search tree visualation tool
+Binary search tree visualization tool
